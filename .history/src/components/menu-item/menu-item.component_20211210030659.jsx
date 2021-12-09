@@ -7,7 +7,7 @@ const MenuItem = ({title, imageUrl, size, history, linkUrl, match}) =>
             const navigate = useNavigate();
             return (
                 <div
-                    className={`${size} menu-item`} onClick={ () => navigate(`${linkUrl}`)}>
+                    className={`${size} menu-item`} onClick={ () => navigate(`${match.url}${linkUrl}`)}>
                     
                     <div 
                         className='background-image'
