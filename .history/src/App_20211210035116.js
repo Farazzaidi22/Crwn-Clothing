@@ -9,7 +9,7 @@ function App() {
     <div>
       <Routes>
         <Route exact path='/' element={<HomePage/>}/>
-        <Route path='/shop'   element={<ShopPage/>}/>
+        <Route path='/shop'   element={</>}/>
       </Routes>
     </div>
   );
