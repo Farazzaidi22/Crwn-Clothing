@@ -1,0 +1,19 @@
+
+import './collection-item.styles.scss'
+
+
+const CollectionItem = ({ id, name, price, imageUrl}) => (
+    <div className='collection-item'>
+
+       <div
+            className='image'
+            style={{
+                background: `url(${imageUrl})`
+            }}/>
+
+        <div className='collection-footer'>
+            <s></>
+        </div>
+    </div>
+)
+export default CollectionItem
