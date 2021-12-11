@@ -1,4 +1,11 @@
 body{
-    font-family: 'Bigelow Rules', cursive;
+    /* font-family: 'Bigelow Rules', cursive; */
+    font-family: 'Open Sans Condensed', cursive;
     padding: 20px 60px;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
