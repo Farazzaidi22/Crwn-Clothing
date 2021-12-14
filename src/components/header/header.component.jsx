@@ -12,7 +12,7 @@ const Header = ( {currentUser} ) => (
 
             <NavLink to='/' className='logo-container' >
                 <ReactLogo className='logo'/>
-            </NavLink>
+            </NavLink>  
 
             <div className='options'>
                 <NavLink to='/shop' className='option' >
