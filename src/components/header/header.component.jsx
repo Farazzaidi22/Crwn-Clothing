@@ -5,7 +5,7 @@ import { ReactComponent as ReactLogo} from '../../assets/crown.svg'
 import { NavLink } from 'react-router-dom'
 import { auth } from '../../firebase/firebase.utils'
 import { connect } from 'react-redux'
-
+import CartIcon from '../cart-icon/cart-icon.component'
 
 
 const Header = ( {currentUser} ) => (
@@ -32,6 +32,7 @@ const Header = ( {currentUser} ) => (
                         SIGN IN
                     </NavLink>
                 }
+                <CartIcon/>
             </div>
         </div>
 )
